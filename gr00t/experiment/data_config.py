@@ -777,7 +777,7 @@ class MimicFrankaConfig(BaseDataConfig):
 
     language_keys = ["annotation.human.action.task_description"]
     observation_indices = [0]
-    action_indices = list(range(25)) # Adjust if I switch to quaternion
+    action_indices = list(range(16)) # Adjust if I switch to quaternion
 
     def modality_config(self):
         video_modality = ModalityConfig(
