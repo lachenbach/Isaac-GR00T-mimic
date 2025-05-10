@@ -1,0 +1,43 @@
+{
+  "state": {
+    "franka_eef_pos": {
+      "start": 22,
+      "end": 25
+    },
+    "franka_eef_6d_rot": {
+      "start": 16,
+      "end": 22
+    },
+    "hand_joint_pos": {
+      "start": 0,
+      "end": 16
+    }
+  },
+  "action": {
+    "franka_eef_pos": {
+      "start": 22,
+      "end": 25
+    },
+    "franka_eef_6d_rot": {
+      "start": 16,
+      "end": 22
+    },
+    "hand_joint_pos": {
+      "start": 0,
+      "end": 16
+    }
+  },
+  "video": {
+    "workspace_view": {
+      "original_key": "observation.images.main"
+    },
+    "wrist_view_palm": {
+      "original_key": "observation.images.secondary_0"
+    }
+  },
+  "annotation": {
+    "human.action.task_description": {
+      "original_key": "task_index"
+    }
+  }
+}
