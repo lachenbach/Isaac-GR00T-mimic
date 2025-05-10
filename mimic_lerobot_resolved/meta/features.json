@@ -1,0 +1,34 @@
+{
+  "observation.state.hand_joint_pos": {
+    "shape": [16],
+    "type": "state"
+  },
+  "observation.state.franka_eef_6d_rot": {
+    "shape": [6],
+    "type": "state"
+  },
+  "observation.state.franka_eef_pos": {
+    "shape": [3],
+    "type": "state"
+  },
+  "action.hand_joint_pos": {
+    "shape": [16],
+    "type": "action"
+  },
+  "action.franka_eef_6d_rot": {
+    "shape": [6],
+    "type": "action"
+  },
+  "action.franka_eef_pos": {
+    "shape": [3],
+    "type": "action"
+  },
+  "observation.image.workspace_view": {
+    "shape": [3, 128, 128],
+    "type": "image"
+  },
+  "observation.image.wrist_view_palm": {
+    "shape": [3, 128, 128],
+    "type": "image"
+  }
+}
