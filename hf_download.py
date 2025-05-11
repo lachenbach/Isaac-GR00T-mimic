@@ -7,5 +7,5 @@ from lerobot.common.datasets.lerobot_dataset import LeRobotDataset
 
 
 dataset = LeRobotDataset(
-    repo_id="LiamFy/green_cup_pour_fixed", root="./green_cup_pour_fixed"
+    repo_id="LiamFy/green_cup_pour_fixed4", root="./green_cup_pour_fixed"
 )
